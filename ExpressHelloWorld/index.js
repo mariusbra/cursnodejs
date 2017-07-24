@@ -15,11 +15,11 @@ var oResponse = {
 }
 
 // create Http server
-var oServer = mhttp.createServer(function(req, res){
+var oServer = mhttp.createServer(function (req, res) {
     console.log("\r\nRequest received");
-    res.writeHead(200, {'Content-Type': 'application/json'});
+    res.writeHead(200, { 'Content-Type': 'application/json' });
 
-    res.write(JSON.stringify(oResponse)) ;
+    res.write(JSON.stringify(oResponse));
     res.end();
     console.log("Response sent!");
 

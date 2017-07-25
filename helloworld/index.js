@@ -6,7 +6,7 @@
 var mhttp = require("http");
 
 // variables
-var iPort = 8081;
+var iPort = 8082;
 var sMessage = "Hello world!";
 var oResponse = {
     "returnCode": "1",
